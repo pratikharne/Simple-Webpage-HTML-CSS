@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 2;
+}
+h3 {
+    margin: 1rem 0 1rem 0;
+}
+li {
+    list-style: none;
+}
+.fa {
+    margin-right: 0.5rem;
+}
+.header {
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEF2FF;
+    align-items: center;
+    padding: 0 3%;
+}
+.brand-logo {
+    margin-top: 2rem;
+    width: 10rem;
+}
+.nav-items {
+    display: flex;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-links {
+    color: #89CFFD;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem auto;
+    text-align: left;
+    justify-content: center;
+    gap: 5%;
+}
+.col {
+    border: 1px solid #eee;
+    border-radius: 1.2rem;
+    padding: 1rem;
+}
+.card-header img {
+    width: 7rem;
+}
+.card-content {
+    background: linear-gradient(90deg, rgba(42,193,227,1) 0%, rgba(13,226,243,1) 100%);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+/* form */
+.form-label {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+.text-box {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #eee;
+} 
+
+footer {
+    text-align: center;
+    color: #D3DEDC;
+    font-size: 0.85rem;
+    padding: 2rem;
+    background-color: #000;
+}
+
+.btn {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.7rem 1.5rem;
+    margin-top: 1rem;
+    border: 1px solid #00D7FF;
+    border-radius: 1.2rem;
+    background: linear-gradient(90deg, rgba(14,153,248,1) 0%, rgba(102,197,239,1) 100%);
+}
+
+
